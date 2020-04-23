@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrap{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    font-family: "Roboto","PingFang TC","sans-serif","Arial","微軟正黑體";
+    /* background-color: #eee; */
+}
+
+.header{
+    background-image: url(../pic/header/banner.png);
+    height: 960px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+
+}
+
+.header-area{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-w{
+    font-size: 24px;
+    line-height: 42px;
+    color: #fff;
+    font-style: italic;
+}
+
+.text-p-16{
+    padding-top: 16px;
+}
+
+.header h1{
+    font-size: 80px;
+    line-height: 94px;
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 32px;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.header-links li a{
+    text-decoration: none;
+}
+
+.content-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#eee;
+
+}
+
+.text-h2{
+    font-size: 64px;
+    line-height: 75px;
+    font-style: italic;
+    padding-top: 64px;
+    font-weight: 500;
+}
+
+
+.content-about img{
+    padding-top: 40px;
+}
+
+.about-info{
+    font-size: 24px;
+    line-height: 42px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.info-jb::before{
+    content:'';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius:50%;
+    margin-left: -38px;
+    margin-top: 10px;
+}
+
+.content-about div{
+    width: 384px;
+    height: 1px;
+    background-color: #000;
+    margin: 32px 0 10px 0;
+}
+
+.p-54{
+    padding-bottom: 54px;
+}
+
+/* 少了ul>li樣式之後再補上（不太會做) */
+
+.content-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#000;
+}
+
+.text-p{
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.brand-p{
+    padding-top: 32px;
+}
+
+.brand-w{
+    color: #fff;
+}
+
+.brand-img01{
+    padding-top: 48px;
+}
+
+.brand-img-list{
+    display: flex;
+}
+
+.brand-img-list li{
+    padding: 40px 0 160px 0;
+}
+
+.img-list-24{
+    padding-left: 24px;
+}
+
+
+.content-other{
+    background-image: url(../pic/content_other/photo-1561291386-5be50364cfb5.png);
+    height: 1558px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 360px;
+    
+
+}
+
+.other-area{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -360px;
+
+}
+
+.text-other-h2{
+    font-size: 64px;
+    line-height: 75px;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 64px;
+}
+
+.text-other-info{
+    font-size: 20px;
+    line-height: 42px;
+    padding: 24px 0 48px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.other-list{
+    display: flex;
+}
+
+.other-list-pic{
+    margin-left: 24px;
+    margin-bottom: 100px;
+}
+
+.list-p{
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+
+}
+
+.footer{
+    background-color: #000;
+    text-align: center;
+}
+
+.footer ul{
+    padding-bottom: 80px;
+}
+
+.text-w a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-text-lh-36{
+    line-height: 36px;
+}
